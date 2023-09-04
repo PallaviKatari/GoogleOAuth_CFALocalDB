@@ -18,3 +18,5 @@
   -> Run application - Database get automatically in LocalDB
   -> To view LocalDB - View - SQL Server Object Explorer - Refresh the LocalDB - The name given in the initial catalog gets generated as a database
 
+  ******* HAPPY CODING *******
+
