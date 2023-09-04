@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Home</h2>
+@if (User.Identity.IsAuthenticated)
+{
+     <text>Logged in as:</text> @User.Identity.Name   
+}
+

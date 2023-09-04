@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login Page</h2>
+@ViewBag.Message
+
+<i>Local User Login Form Goes here</i>
+
+<h3>Login Using External Provider</h3>
+@Html.ActionLink("Login Using Google", "RedirectToGoogle")
+
+
