@@ -7,17 +7,18 @@
 </head>
 <body>
     <div>
+        <img src="@Url.Content("~/Content/Images/img2.jpg")" height="100" width="100"/>
         <h2>Google OAuth Demo</h2>
         <div style="text-align:right">
-        @if (User.Identity.IsAuthenticated)
-        {    
-            @Html.ActionLink("LogOff","LogOff","Account")
-        }
-        else
-        {
-            @Html.ActionLink("Login","Login","Account")
-        }
-        <hr />
+            @if (User.Identity.IsAuthenticated)
+            {
+                @Html.ActionLink("LogOff", "LogOff", "Account")
+            }
+            else
+            {
+                @Html.ActionLink("Login", "Login", "Account")
+            }
+            <hr />
         </div>
         @RenderBody()
     </div>
